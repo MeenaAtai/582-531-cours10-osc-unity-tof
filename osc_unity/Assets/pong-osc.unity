@@ -1459,6 +1459,8 @@ GameObject:
   - component: {fileID: 1535292068}
   - component: {fileID: 1535292066}
   - component: {fileID: 1535292069}
+  - component: {fileID: 1535292071}
+  - component: {fileID: 1535292070}
   m_Layer: 0
   m_Name: Player Paddle
   m_TagString: Paddle
@@ -1633,6 +1635,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   forceType: 0
   bounceStrength: 0.1
+--- !u!114 &1535292070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535292063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbba286dc10e549b2bdec947ef8dbd3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoConnect: 1
+  _closeOnPause: 0
+  _mapBundle: {fileID: 0}
+  _workInEditor: 0
+  _localHostMode: 1
+  _localHost: 127.0.0.1
+  _localPort: 8001
+--- !u!114 &1535292071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535292063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464088183d2a1484ab8fb64e356c9f5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoConnect: 1
+  _closeOnPause: 0
+  _mapBundle: {fileID: 0}
+  _workInEditor: 0
+  _localHostMode: 0
+  _localPortMode: 2
+  _localReceiver: {fileID: 0}
+  _localHost: 192.168.61.28
+  _localPort: 7000
+  _remoteHost: 127.0.0.1
+  _remotePort: 7000
+  _useBundle: 0
 --- !u!1 &1635559012
 GameObject:
   m_ObjectHideFlags: 0
