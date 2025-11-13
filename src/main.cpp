@@ -46,7 +46,8 @@ void loop() {
 
   //exercice - TOF
 
-  uint16_t mesure = myTOF.readRangeSingleMillimeters();
+  int mesure = myTOF.readRangeSingleMillimeters();
+  monOsc.sendInt( "/mesure" , mesure);
 
 
   delay(50);
